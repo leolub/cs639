@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.aboutme.FirstFragment"
+        android:label="@string/biography_title">
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_fragmentThird"
+            app:destination="@id/fragmentThird" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.aboutme.SecondFragment"
+        android:label="@string/hobbies_title" />
+
+    <fragment
+        android:id="@+id/fragmentThird"
+        android:name="com.example.aboutme.FragmentThird"
+        android:label="@string/contact_title" />
+</navigation>
