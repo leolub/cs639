@@ -204,4 +204,4 @@ fun increaseDirty( start: Int ) = start + 1
 println(updateDirty(15, ::increaseDirty))// 16
 var dirtyLevel = 19
 dirtyLevel = updateDirty(dirtyLevel) { dirtyLevel -> dirtyLevel + 23}
-println(dirtyLevel)//42 
+println(dirtyLevel)//42
