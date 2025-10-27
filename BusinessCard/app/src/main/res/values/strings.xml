@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+
+
+    <string name="bc_name">Siming Li</string>
+    <string name="bc_title">Software Engineer</string>
+    <string name="bc_phone">+1 (123) 456789</string>
+    <string name="bc_handle">@siming_dev</string>
+    <string name="bc_email">lisiming@fakemail.com</string>
+</resources>
