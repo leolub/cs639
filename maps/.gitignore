@@ -10,3 +10,4 @@ local.properties
 .idea/
 !deliverables/**
 !*.apk
+secrets.properties
